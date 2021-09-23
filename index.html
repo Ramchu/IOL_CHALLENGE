@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="/css/estilos.css" rel="stylesheet"/>
+</head>
+<body>
+
+<div class="contenedor">
+    <div class="titulo">
+        <h1>Dólar MEP</h1>
+    </div>
+ 
+<!-- Seccion Titulo y parrafo -->
+
+    <div class="parrafo">
+        <h1>¿Que es Dólar MEP?</h1>
+        <p>
+            Comprar bonos con pesos (AL30) y venderlos en su especia D (AL30D), obteniendo por
+            resultado dólares en tu Cuenta de Inversión de Argentina las veces que quieras. 
+            <a href="" style="text-decoration: none;">Requisitos.</a>
+        </p>
+    </div>
+
+<!-- Seccion pasos -->
+    <div class="pasos">
+
+        <div class="pasos_inicio">
+            <div class="icono_pesos">
+                <div class="signo_pesos">$</div>
+            </div>
+
+            <div class="inicio">
+                <h5>1. Inicio</h5>
+                <div class="parrafo_inicio">
+                    Creas una orden de
+                    compra del bono AL30
+                    con pesos.
+                </div>
+            </div>
+        </div>
+
+        <div class="pasos_espero">
+            <div class="icono_espero">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="30" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                    <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                </svg>
+            </div>
+
+            <div class="espero">
+                <h5>2. Espero</h5>
+                <div class="parrafo_espero">
+                    El bono debe cumplir un plazo
+                    minimo de tenencia de 1 dia
+                    (Parking)
+                </div>
+            </div>
+        </div>
+
+        <div class="pasos_listo">
+            <div class="icono_listo"><div>US$</div>                     
+            </div>
+
+            <div class="listo">
+                <h5>3. Listo</h5>
+                <div class="parrafo_listo">
+                    Se creara una ventana
+                    automatica del bono en su
+                    especie en dolares AL30D
+                </div>
+            </div>
+        </div>
+    </div>  
+    
+<!-- Seccion de aviso "Importante"-->
+
+    <div class="importante">
+        <div>
+            <span style="font-weight: bolder;">Importante:</span> Debido a la Comunicacion "A" 7340, al concentrarse la operacion de Dólar MEP, tené en</br>
+            cuenta que se te realizará una extraccion automática por el saldo resultante de dicha transaccion.
+        </div>
+    </div>
+
+<!-- Seccion Valor Referencia -->
+<div class="valor_referencia">
+    <div class="valor_referencia_titulos">
+        <div class="margin_bottom0">
+            Valor de referencia de Dólar MEP
+        </div>
+        <div class="valor_referencia_monto">ARS 170,94</div><a href="" class="informacion"> i </a>
+    </div>
+    <a href="" class="operaciones" style="font-weight:bold;">Detalle de Operaciones</a>
+</div>
+
+<!-- Seccion recuadro final -->
+    <div class="recuadro_final">
+                <div class="encabezados">
+                    <!-- Seccion encabezados recuadro final -->
+                        
+                        <div class="encabezado_monto">
+                            <div>
+                                <h5>Ingrese un monto en pesos</h5>
+                            </div>
+                        
+                            <div class="disponible">
+                                <div class="ars">Disponible:AR$ 809.612,21</div> 
+                                <a href="" class="usar_todo" style="font-weight:bold;" >Usar Todo</a>
+                                
+                            </div>  
+
+                            <div class="estimado">
+                                <div>*Estimado a acreditarse</div>
+                            </div>
+                        </div>
+
+
+                       
+                        <div class="alinear_box">
+                                <div class="us">
+                                    <h1>US$ 00,00</h1>
+                                </div>
+
+                                <div class="elemento">
+                                    <input type="number" id="monto" name="monto" required="true" placeholder="500.000" style="font-size: 25px;"/>
+                                </div>
+                                                                    
+                        </div>
+
+
+                        
+                </div>
+
+                <div class="texto_final">
+                    <div class="limite_monto">
+                        Minimo $500 | Maximo $500.000
+                    </div>
+                    
+                    <div class="parrafo_final">
+                        <div>Operació a realizarse en plazo Contado Inmediato (CI) y a Precio de Mercado</div>
+
+                        <div class="ordenes">Las órdenes de compre y venta de valores negociables no son revocables.</div>
+                    </div>
+
+                </div>
+    </div>
+    
+    <div class="posicion_boton">
+        <div class="boton"> 
+            <input type="button" value="Siguiente" name="boton" style="font-weight: bolder;"/>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
